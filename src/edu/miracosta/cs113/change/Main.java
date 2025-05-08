@@ -21,6 +21,7 @@ public class Main {
                 if (!recursiveResult.contains(result)) {
                     System.out.println("Missing: " + result);
                 }
+
             }
 
             System.out.println("Total Results: " + recursiveResult.size() + "/" + linearResult.size());
